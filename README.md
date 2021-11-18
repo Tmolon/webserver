@@ -37,18 +37,18 @@ Girdikten sonra index dosyasının olduğu bölüme gidip oradaki dosyalar ile k
 
 Şimdi son olarak webde hazır bulunan bir statik site dosyalarını  bu lokasyona çekme işlemine bakalım. Aşağıdaki komutlaru sırasıyla çalıştıralım.
 
-apt-get update
-apt-get install vim
-apt-get install wget
-apt-get install unzip 
+	apt-get update
+	apt-get install vim
+	apt-get install wget
+	apt-get install unzip 
 
 Bu komutlar sayesinde artık wget kullanarak istenen url den buraya file download edebiliriz. İndirilen zip dosyalarını açabiliriz. Örnek olarak aşağıdaki siteyi download edelim
 
-wget https://github.com/startbootstrap/startbootstrap-creative/archive/gh-pages.zip
+	wget https://github.com/startbootstrap/startbootstrap-creative/archive/gh-pages.zip
 
-unzip dosya.zip
-rm dosya.zip
-mv data/* . ;   data içindeki tüm dosyaları buraya getir.
+	unzip gh-pages.zip
+	rm gh-pages.zip
+	mv start-bootstrap-template/* . ;   hedef içindeki tüm dosyaları buraya getir.
 
 Artık site hazır portainer üzerinden görsel olarak view edip istediğimiz servisi kapatıp açıp olanlara tanıklık edebiliriz.
 
