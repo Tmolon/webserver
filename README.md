@@ -57,7 +57,6 @@ Bu komutlar sayesinde artık wget kullanarak istenen url den buraya file downloa
 
 Artık site hazır portainer üzerinden görsel olarak view edip istediğimiz servisi kapatıp açıp olanlara tanıklık edebiliriz.
 
-Happy coding ..:)
 
 
 
